@@ -1,5 +1,5 @@
 export default {
-	
+	base: "./",
 	build: {
 		rollupOptions: {
 			input: {
