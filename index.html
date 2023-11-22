@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,100;1,500&display=swap" rel="stylesheet">
+
+  <title>Eclipse Esthetics</title>
+  <script type="module" crossorigin src="/eclipse/assets/main-gxLWT0_d.js"></script>
+  <link rel="stylesheet" crossorigin href="/eclipse/assets/main-pGlhCVi7.css">
+</head>
+
+<body
+  class="container bg-dark text-main font-mainFont max-w-[1440px] h-screen tracking-widest scroll-smooth text-center">
+  <div id="site" class="conatiner flex flex-col items-center w-full h-full ">
+    <nav
+      class="nav flex justify-between w-full mt-5 items-center mb-20 relative h-10">
+      <div class="flex items-center justify-center font-headerFont"><img src=""
+          alt="">Eclipse
+        Esthetics
+      </div>
+      <button
+        class="navBtn flex lg:hidden z-50 absolute right-2 top-2 invert w-6"><img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAOSAAADkgHKEu2wAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAEVQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHmGn6QAAABZ0Uk5TAAYXGBscMTpgbm9wgYWmv8DGytji+4G3KSkAAABsSURBVDjLzZNLEoAgDEMffhEF5SP3P6onoNn6ts1Mm04Cmi2cA8IGrLkb5JXYTSLNFjSSLUjsrzV/d1iu+xlwXwt/YZoHTADuqGOX9XB4+1GeYguKFsgV8khp8xeowMjIydDK2MviyOrJ8io+XDwwpVwptFoAAAAASUVORK5CYII=" alt=""> </button>
+      <div class="navItems hidden lg:flex gap-8 justify-end w-1/2 uppercase ">
+        <a href="#about" class="p-1 hover:translate-y-1 transition-transform">O
+          nas</a>
+        <a href="#team"
+          class="p-1 hover:translate-y-1 transition-transform">Zespół</a>
+        <!-- <a href="#offers" class="p-1">Oferta</a> -->
+        <a href="#contact"
+          class="p-1 hover:translate-y-1 transition-transform">Kontakt</a>
+        <a href=""
+          class="p-1 invert rounded-full flex items-center justify-center hover:translate-y-1 transition-transform"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADnSURBVEiJ7dQxSgNBFMbxXzSIWJlAmoCN2NjEwipomTN4BC+RLjdIFTxGajs7i6RJlwvYqyBEQlK4ogzOMO4moOgHA295877/7Myb4berVqLmEj20UMcCfTxWXcw+xlh9MU6rmsMoYr4RQAMvCcBJVcBFYPiAcxzjKFVYzwQ0g+85JjmFO5mAsNtWmXXJP2hhWMxpB7kObov4GVd4zYW+60z8UMNxGDPJ3aLSSgGW3/CJzk09Fbve2nMPXQw+5aa4LuIFZjGT1CEvcVfEB0HuyYbbtLT+AX8AkPuaznDj497cb2c5P1FrO4Y4DNNJhiAAAAAASUVORK5CYII=" alt=""></a>
+        <a href=""
+          class="p-1 invert rounded-full flex items-center justify-center hover:translate-y-1 transition-transform"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAhQAAAIUB4uz/wQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJFSURBVEiJrdbLq09RFAfwz+/nEuV6Xe9n3EJIRsrAQNwBZWDilVJMSPgflJhKGJE3EwPmjJSSImFEnrkeuZ7Xm2uw13H3PZ3f7wrf2u291l77u84+e621d01ftGEzOjAdo0I/EENLth/wLcZv8ACXcARPVWAd3qHnH9snbCtIa9GvwZmQH+I4bsaXdeNr1RehBa3R5mADZsfcDuyHEXgd3s9hcAOyP8EAHAquz5gK20PxGEP+kngrrmF1OLkRnLvhfAh7+yFpwSRMkQ49R1dw3Al5Z8hX6pgRylsNiCdK236BJ3iEVzgqRRqcwBecDPl29DNIv6YHyyvIFwZxo4h5i2UV6+bH/FfoDKGjZDQez2OuUwrj4VLErIwdF07aS2vnxNxPeBnCkpLRvtA/C2dltOJu2Jwuzc3Kdvk7RBdnBrUg7sHGCvICK8KmW98IbM8dvI/BosxgVGYwoYmDQfgRdrMz/bRifb3BwloDfTNUrqnje4xbMn2XdMCwtAlpR3B8lIpdgZyr30O+j7EV5MP0HvKp0txM2RkUh1mO53H6hul6vWG6Khz3F6bfSdnZLNEKJ1XtjepfWCTal7oUpjC6wvAqFkiloivTv5NKxQJcrFg3JvpXcCG87akwzNGs2JWxIzgv58JD/3YXFKjjenDugpHSv+zBWSl5/hYDcEDv1Tm5SI61Uj2p4R6OSVdmp5SpBbqlAtaa6WpSrZorXZnzQr8NB3Pv/+vS78aW3HuONmzS+2xpC33Vs+WjdMnQ99lyOHYOfgGQG87KtFeR9gAAAABJRU5ErkJggg==" alt=""></a>
+      </div>
+    </nav>
+    <header
+      class="container flex flex-col lg:flex-row md:w-9/12 gap-10 lg:w-full justify-evenly text-center lg:text-start items-center">
+      <div class="flex flex-col gap-14 items-center lg:items-start   ">
+        <div>
+          <h1 class="text-7xl md:text-7xl lg:text-9xl font-headerFont">Eclipse
+            Esthetics</h1>
+          <h2 class="text-2xl text-center">Wellness & SPA</h2>
+        </div>
+        <p class="text-2xl max-w-prose text-white w-3/4 italic font-thin">Poczuj harmonię
+          ciała, umysłu i ducha w naszym ekskluzywnym salonie spa.</p>
+        <div
+          class="flex lg:flex-row flex-col gap-10 justify-center items-center">
+          <a href="#contact"
+            class="border px-6 py-2 bg-dark rounded-md text-white hover:bg-main transition-colors hover:text-dark hover:border-main ">Napisz
+            do nas</a>
+          <a href="#contact"
+            class="flex justify-center items-center gap-4 border px-6 py-2 bg-dark rounded-md text-white hover:bg-main transition-colors hover:text-dark hover:border-main"><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFjSURBVEiJrdU9S1xBFMbxH8uCQkC3ESFdSGHAD2BhrCQYixSpzJewsoitglhZiSn8ClZKikBIl1IEIUgIgQQEKwXXYhVUjoV3YVnv7L17rwOnmmee/7ycc0ZEiAgYxQZOcYC33bk60Wv+DdETN3hfG4CRHPNng8Bawrwb11ioA/hTAAhcYqIKoIFxxWMcsyV0T0YDhyV0dziuCvhZoDnDh4j4VwUAc9J3/wsv62RR9wRHCfjXiDirunNoxGMurSTmm3XMoTdf9z29ogu8qN0qMsAUbnMgm88CyCDLOYDAUkG1vsESJgcCMvGXHEAHnxLmH3Gf6a70tZW8BU18T5xkC2M92tc479Nc410SkC1s4XcC0sY2dvA/oelgPgnIIK8GQMpEBzNFrbaFHzUg+2X6eRO7FQEnw3wcKx676jCAz8MVDdPS32t/7KFZrTpZxEmR+cAsKvk2C1jPEqGNv1jtmkeEB2jdjHWn35EnAAAAAElFTkSuQmCC" class="w-4 h-4 invert" alt="">Zadzwoń</a>
+        </div>
+      </div>
+      <img src="/eclipse/assets/header2-8k-oyfOE.jpg" alt="header" class="w-full lg:w-1/2">
+    </header>
+    <main
+      class="container flex flex-col justify-center items-center w-full gap-32 my-40">
+      <section id="about">
+        <div class="container flex flex-col-reverse lg:flex-row gap-20">
+          <div class="lg:w-1/2 rounded-sm overflow-hidden imgLayout">
+            <img src="/eclipse/assets/img-YsXx_NL9.jpg" alt="">
+          </div>
+          <div
+            class="flex flex-col lg:w-1/2 gap-10 tracking-wider justify-center leading-relaxed max-w-prose text-white">
+            <h2 class="text-5xl lg:text-6xl text-main ">O nas</h2>
+            <p class="text-xl text-justify font-extralight tracking-widest">Zapraszamy do
+              Eclipse Esthetics,
+              miejsca, gdzie luksus spotyka się z relaksem. Nasz salon spa
+              oferuje szeroką gamę zabiegów, które odprężą Twoje ciało i umysł,
+              pozwalając Ci zanurzyć się w głęboki stan spokoju. Nasze wyjątkowe
+              środowisko, połączone z ekspertyzą naszych terapeutów, zapewnia
+              niezapomniane doświadczenie odnowy.</p>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <div class="container flex flex-col gap-20 justify-center items-center">
+          <h2 class="text-5xl lg:text-6xl">Nasi profesjonaliści</h2>
+
+          <div class="flex w-full gap-20 justify-center items-start flex-wrap">
+            <div
+              class="flex flex-col justify-center items-center gap-10 text-center w-full p-2 max-w-xs rounded-md">
+              <div
+                class="flex flex-col justify-center items-center rounded-3xl overflow-hidden ">
+                <div class="imgLayout mb-20 bg-slate-500">
+
+                  <img src="/eclipse/assets/team2-JrmSBjlU.jpg" alt=""
+                    class="w-full h-full object-cover ">
+                </div>
+                <h3 class="font-bold text-xl">Kasia</h3>
+                <p>Dyrektor Spa</p>
+
+              </div>
+              <div class="flex flex-col justify-center items-center text-white">
+                <p> Z ponad 10-letnim doświadczeniem w branży wellness, jest
+                  pasjonatką holistycznego podejścia do piękna i zdrowia.
+                </p>
+                <a href=""
+                  class="flex gap-2 justify-center items-center my-5 w-5 hover:scale-125 transition-transform duration-300 "><img
+                    src="data:image/png;base64,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" alt="" class=""> Zadzwoń</a>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col justify-center items-center gap-10 text-center w-full p-2 max-w-xs">
+              <div
+                class="flex flex-col justify-center items-center rounded-3xl overflow-hidden  ">
+                <div class=" opacity-100 mb-20">
+                  <img src="/eclipse/assets/team1-2I3asAj3.jpg" alt="" class="w-full object-cover">
+                </div>
+                <h3 class="font-bold text-xl">Jakub</h3>
+                <p>Ekspert ds. Pielęgnacji Skóry</p>
+
+              </div>
+              <div
+                class="flex flex-col justify-center items-center  text-white">
+                <p>Jakub, z wykształceniem dermatologicznym, łączy najnowszą
+                  wiedzę naukową z najlepszymi praktykami estetycznymi, oferując
+                  klientom spersonalizowane kuracje pielęgnacyjne.
+                </p>
+                <a href=""
+                  class="flex gap-2 justify-center items-center my-4 w-5 hover:scale-125 transition-transform duration-300 "><img
+                    src="data:image/png;base64,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" alt="" class=""> Zadzwoń</a>
+              </div>
+            </div>
+
+
+            <!-- karta -->
+            <div
+              class="flex flex-col justify-center items-center gap-10 text-center w-full p-2 max-w-xs">
+              <div
+                class="flex flex-col justify-center items-center rounded-3xl overflow-hidden ">
+                <div class="imgLayout mb-20">
+                  <img src="/eclipse/assets/team5-JrGh3Dcy.jpg" alt=""
+                    class=" w-full object-cover">
+                </div>
+                <h3 class="font-bold text-xl">Marta</h3>
+                <p>Główna Terapeutka</p>
+
+              </div>
+              <div class="flex flex-col justify-center items-center text-white">
+                <p>Specjalistka od odprężających masaży i zabiegów
+                  odmładzających, Marta dba o to, aby każdy klient czuł się
+                  wyjątkowo.
+                </p>
+                <a href=""
+                  class="flex gap-2 justify-center items-center my-4 w-5 hover:scale-125 transition-transform duration-300 "><img
+                    src="data:image/png;base64,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" alt="" class=""> Zadzwoń</a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </section>
+      <!-- <section id="offers">
+        <div
+          class="container flex flex-col justify-center items-center gap-20 w-full">
+          <h2 class="text-5xl">Oferta</h2>
+          <div class="flex flex-col justify-center items-center gap-10">
+            <img src="./img/header.png" alt="">
+            <a href="tel:+00000000"
+              class="text-lg border px-7 py-2 bg-dark rounded-md text-white ">Call
+              us 📞</a>
+          </div>
+
+
+        </div>
+      </section> -->
+      <div class="imgLayout w-screen h-[600px]">
+        <img src="/eclipse/assets/bg-M8Bh3yCh.jpg" alt="" class="object-cover object-bottom">
+      </div>
+      <section id="contact" class="w-full mb-10 ">
+        <div
+          class="container flex justify-center items-center flex-col gap-20 w-11/12">
+          <h2 class="text-5xl lg:text-6xl ">Skontaktuj się z
+            Eclipse&nbsp;Esthetics</h2>
+          <div
+            class="flex flex-col lg:flex-row justify-center lg:justify-around gap-20 w-full text-white">
+            <div
+              class="flex flex-col gap-10 w-full lg:w-1/2 justify-center items-center text-center lg:text-left lg:justify-normal lg:items-start">
+              <div class="flex flex-col gap-2 ">
+                <!-- <h3 class="text-2xl font-semibold">Zacznij swoją podróż do odprężenia - skontaktuj się z Eclipse Esthetics</h3> -->
+                <p>Gotowy na doświadczenie odnowy w Eclipse Esthetics?
+                  Skontaktuj się z nami, aby dowiedzieć się więcej o naszych
+                  usługach i zarezerwować swoją wizytę. Nasz zespół
+                  profesjonalistów jest tutaj, aby dopasować zabieg idealnie do
+                  Twoich potrzeb.</p>
+              </div>
+              <div class="flex flex-col gap-4">
+                <p class="flex gap-4 items-center">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFJSURBVEiJrZRNSsNQFIU/BXVgzQYEEV2DgwpKjPsQFyGI1A0UnEpRxIngUMQ48aed6gb8Gzj3F0S0TpQ6yAu0z9v7bloP3EGSc77zHnkJhLUIbAO3wIebG2ALSAz5rpoGGkArMHVgqih8FngxwPN5BspW+CTwVACez6vbdVB1IXwExMComwUgFXwnIXgshNYUf0Xwz2sFNWHlIfk72dTM1545NhQkXuZKM7975pKhYMzLvLU/HPTMQwZgSCNawaN3PWMA+p4HzXxI53ZTQ8GxlznQzMv8PXYVxb8u+Je0gghoCqGU7LSU3CTCylvAJ9lLV7UrBK2zE4IDjHfZRWi+gAlLAcBGDwVVKxyyH9pdAfg9to+yQ2Xg2wD/AeaKwnOtGgpWeoUDDAD7CnyvH3iuYeBUgDfw/jv9KAIu2+AX7t6/KgLOgPMi8F/92tLmkHjQoAAAAABJRU5ErkJggg==" alt=""
+                    class="w-4 h-4 justify-center invert">
+                  <a href="">Ul.Jabłonna 24, Myszków</a>
+                </p>
+                <p class="flex gap-4 items-center">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFjSURBVEiJrdU9S1xBFMbxH8uCQkC3ESFdSGHAD2BhrCQYixSpzJewsoitglhZiSn8ClZKikBIl1IEIUgIgQQEKwXXYhVUjoV3YVnv7L17rwOnmmee/7ycc0ZEiAgYxQZOcYC33bk60Wv+DdETN3hfG4CRHPNng8Bawrwb11ioA/hTAAhcYqIKoIFxxWMcsyV0T0YDhyV0dziuCvhZoDnDh4j4VwUAc9J3/wsv62RR9wRHCfjXiDirunNoxGMurSTmm3XMoTdf9z29ogu8qN0qMsAUbnMgm88CyCDLOYDAUkG1vsESJgcCMvGXHEAHnxLmH3Gf6a70tZW8BU18T5xkC2M92tc479Nc410SkC1s4XcC0sY2dvA/oelgPgnIIK8GQMpEBzNFrbaFHzUg+2X6eRO7FQEnw3wcKx676jCAz8MVDdPS32t/7KFZrTpZxEmR+cAsKvk2C1jPEqGNv1jtmkeEB2jdjHWn35EnAAAAAElFTkSuQmCC" alt=""
+                    class="w-4 h-4 justify-center invert">
+                  <a href="">670-050-300</a>
+                </p>
+                <p class="flex gap-4 items-center">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFESURBVEiJ7ZVNTsNADEbfoEpZsciy/yBK4Qaw7D16C27BqbqlRyhUoLZJewYWyCz4Ri3RJCnRtCsseTP296zM2I4zM05pFyeln6NAC8A59wg8AC4S14C5mb0AJMA9sFMghu/ETADmQBu4A7YR4Fux2mJjwALoRCji4R0xjYPgK9AFxkDeAJ5L2xXLigUMeAN6DYp4eE8MKytgwBLoA7dHFsmV25e2GA+K3oGBhFkFPFPOQJpQTqn4AxgCo5IimWJD5QY5tZNsZktgIqC3DJgoVmtVV3QFzPi53xR4kqc6mynnT1fkH/kaWLGfzClwKZ+yn/yVco96ZN+mN8A6kPwlL56vpalsUz9oI2BT8rlVvpE2OGh+VdS1ZZ37tv21Kvyya7oiQoM35mDZJcTbpN790ktaZvbpnEuBZ+JaamYL9//Tr7NvAnxBRDEIuboAAAAASUVORK5CYII=" alt=""
+                    class="w-4 h-4 justify-center invert">
+                  <a href="">salon@eclipse.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col w-full lg:w-1/2">
+              <form action="" class="flex flex-col gap-6 w-full">
+                <input type="text" name="" id="" placeholder="Imię:"
+                  class="border border-slate-300 rounded-md p-2">
+                <input type="email" name="" id="" placeholder="E-mail:"
+                  class="border border-slate-300 rounded-md p-2">
+                <select value="Category:" aria-placeholder="Category:"
+                  class="border border-slate-300 rounded-md p-2 text-slate-400">
+                  <option value="Category:" disabled selected> Kategoria:
+                  </option>
+                  <option value="">Pytanie:</option>
+                  <option value="">Wizyta</option>
+                </select>
+                <textarea name="" id="" cols="10" rows="3"
+                  class="border border-slate-300 rounded-md p-2 resize-none"
+                  placeholder="Wiadomość..."></textarea>
+                  <p class="w-10/12 mx-auto text-xs text-lighter">Wysyłając ten formularz, zgadzam się na przetwarzanie moich danych zgodnie z polityką prywatności.</p>
+                <button type="submit"
+                  class="border px-6 py-2 bg-dark rounded-md text-white hover:bg-main hover:text-dark hover:border-main transition-colors">Wyślij</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer
+      class=" flex flex-col gap-5 justify-center items-center bg-dark p-4 text-white w-screen">
+      <div class="w-screen bg-main h-[1px]"></div>
+
+      <p>Eclipse Esthetics</p>
+      <div class="flex gap-4 opacity-80">
+        <a href="" class="w-full h-full"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADnSURBVEiJ7dQxSgNBFMbxXzSIWJlAmoCN2NjEwipomTN4BC+RLjdIFTxGajs7i6RJlwvYqyBEQlK4ogzOMO4moOgHA295877/7Myb4berVqLmEj20UMcCfTxWXcw+xlh9MU6rmsMoYr4RQAMvCcBJVcBFYPiAcxzjKFVYzwQ0g+85JjmFO5mAsNtWmXXJP2hhWMxpB7kObov4GVd4zYW+60z8UMNxGDPJ3aLSSgGW3/CJzk09Fbve2nMPXQw+5aa4LuIFZjGT1CEvcVfEB0HuyYbbtLT+AX8AkPuaznDj497cb2c5P1FrO4Y4DNNJhiAAAAAASUVORK5CYII=" alt=""
+            class="invert"></a>
+        <a href="" class="w-full h-full"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAhQAAAIUB4uz/wQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJFSURBVEiJrdbLq09RFAfwz+/nEuV6Xe9n3EJIRsrAQNwBZWDilVJMSPgflJhKGJE3EwPmjJSSImFEnrkeuZ7Xm2uw13H3PZ3f7wrf2u291l77u84+e621d01ftGEzOjAdo0I/EENLth/wLcZv8ACXcARPVWAd3qHnH9snbCtIa9GvwZmQH+I4bsaXdeNr1RehBa3R5mADZsfcDuyHEXgd3s9hcAOyP8EAHAquz5gK20PxGEP+kngrrmF1OLkRnLvhfAh7+yFpwSRMkQ49R1dw3Al5Z8hX6pgRylsNiCdK236BJ3iEVzgqRRqcwBecDPl29DNIv6YHyyvIFwZxo4h5i2UV6+bH/FfoDKGjZDQez2OuUwrj4VLErIwdF07aS2vnxNxPeBnCkpLRvtA/C2dltOJu2Jwuzc3Kdvk7RBdnBrUg7sHGCvICK8KmW98IbM8dvI/BosxgVGYwoYmDQfgRdrMz/bRifb3BwloDfTNUrqnje4xbMn2XdMCwtAlpR3B8lIpdgZyr30O+j7EV5MP0HvKp0txM2RkUh1mO53H6hul6vWG6Khz3F6bfSdnZLNEKJ1XtjepfWCTal7oUpjC6wvAqFkiloivTv5NKxQJcrFg3JvpXcCG87akwzNGs2JWxIzgv58JD/3YXFKjjenDugpHSv+zBWSl5/hYDcEDv1Tm5SI61Uj2p4R6OSVdmp5SpBbqlAtaa6WpSrZorXZnzQr8NB3Pv/+vS78aW3HuONmzS+2xpC33Vs+WjdMnQ99lyOHYOfgGQG87KtFeR9gAAAABJRU5ErkJggg==" alt=""
+            class="invert"></a>
+        <a href="" class="w-full h-full">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGJSURBVEiJtdY9axVBFMbx34Q0QgoLtUshplFCQCFNsBJsE1As/AhBULDIB7AKItgEQ3pBC7GIYmNlIWhjoSlCECK+gqCCJimC8VhkNtysm+zEe++BUywzz/OfndlzZlNE6GcM9NUdg/8rTClNYBKnsIpnEfGwY/wItuQtuojjEaEtkXAbfxC1XMQFPMASBivRI7zHiQLAdINxPb/iHMYr0fc88AWT+5gP4EcB4B0+Y7QSvqhNuIfhBsBogXnkRZyJCJVwtmHSFp7k8zma550vBNzaWVQWHsNKi+gb3hQCrtQBi7iD34UGbTlRB7zqkXG1tUMVoKrkOb2LtxGxtvPUUTz3e/QGd3d9ebUKvYblLsw3cXIvwGG8xK8uADf/qZ1aIU11Yf5Jx+E2AjLkuu1SPyjgcmN72adjXsJGofn8nv2rwXwIN7BeaD7b0n2dxlUs4Dl+FhqvYqq1vWfKWTzWfInU8zVmcKjkgkqdl35KaQRjGMk5bLv1fsQHPI2IZQeIXYB+RN//Kv4C1XtxgxpYwOgAAAAASUVORK5CYII=" alt="" class="invert"></a>
+      </div>
+      <p>
+        © <span id="footer-year"></span> Eclipse Esthetics | All right reserved
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
