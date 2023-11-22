@@ -1,5 +1,5 @@
 export default {
-	base: "/eclipse/",
+	base: "//",
 	build: {
 		rollupOptions: {
 			input: {
